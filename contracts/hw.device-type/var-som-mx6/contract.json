@@ -24,6 +24,20 @@
     "media": {
       "installation": "sdcard"
     },
+    "installation": {
+      "method": "externalFlash"
+    },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Set the BOOT-SELECT switch to MMC",
+      "Connect power to the {{name}}"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": [
+      "Set the BOOT-SELECT switch to NAND",
+      "Remove and re-connect power to the {{name}}"
+    ]
   }
 }

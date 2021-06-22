@@ -22,8 +22,14 @@
       "internal": true
     },
     "media": {
-      "installation": "dfu"
+      "installation": "sdcard"
+    },
+    "installation": {
+      "method": "externalBoot"
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
   }
 }
