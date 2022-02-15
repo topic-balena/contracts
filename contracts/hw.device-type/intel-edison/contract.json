@@ -24,6 +24,13 @@
     "media": {
       "installation": "dfu"
     },
+    "installation": {
+      "method": "custom"
+    },
     "is_private": false
+  },
+  "partials": {
+    "instructions": ["TODO"],
+    "bootDevice": ["Power on {{name}}"]
   }
 }

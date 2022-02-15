@@ -25,7 +25,7 @@
       "installation": "sdcard"
     },
     "installation": {
-      "method": "externalBoot"
+      "method": "jetsonFlash"
     },
     "is_private": false
   },
