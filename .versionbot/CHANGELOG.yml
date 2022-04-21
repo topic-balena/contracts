@@ -1,4 +1,26 @@
 - commits:
+    - subject: Clean up installation method and devices sections
+      hash: b270f6c1d13e093a9fd28020efa895c4457eaed9
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Micah Halter <micah@balena.io>
+        signed-off-by: Micah Halter <micah@balena.io>
+      author: Micah Halter
+    - subject: Add instruction partials to etcher supported device types
+      hash: 244a56daa2ab8fd54ec833045cf931365399887d
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Micah Halter <micah@balena.io>
+        signed-off-by: Micah Halter <micah@balena.io>
+      author: Micah Halter
+  version: 1.14.0
+  title: "'Add instruction partials to etcher supported device types'"
+  date: 2022-04-21T18:25:47.560Z
+- commits:
     - subject: Add golang 1.18.1 and 1.17.9
       hash: 5b87dabfbbc39012db11778f4afd34980a89c366
       body: ""
