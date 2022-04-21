@@ -23,10 +23,8 @@
       "internal": true
     },
     "media": {
-      "installation": "usbkey"
-    },
-    "installation": {
-      "method": "externalFlash"
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
     },
     "is_private": false
   },

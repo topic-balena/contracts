@@ -21,11 +21,10 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "RPIBOOT",
     "media": {
-      "installation": "dfu"
-    },
-    "installation": {
-      "method": "internalFlash"
+      "defaultBoot": "internal",
+      "altBoot": []
     },
     "is_private": false
   },
@@ -34,7 +33,9 @@
       "While not having the {{name}} board powered, connect your system to the board's USB port via a micro-USB cable",
       "Power on the {{name}}"
     ],
-    "disconnectDevice": ["Power off the {{name}} and unplug the micro-USB cable"],
+    "disconnectDevice": [
+      "Power off the {{name}} and unplug the micro-USB cable"
+    ],
     "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }
