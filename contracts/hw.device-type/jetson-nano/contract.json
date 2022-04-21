@@ -21,11 +21,10 @@
     "storage": {
       "internal": false
     },
+    "flashProtocol": "jetsonFlash",
     "media": {
-      "installation": "sdcard"
-    },
-    "installation": {
-      "method": "jetsonFlash"
+      "defaultBoot": "sdcard",
+      "altBoot": []
     },
     "is_private": false
   },

@@ -21,11 +21,10 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "edisonFlash",
     "media": {
-      "installation": "dfu"
-    },
-    "installation": {
-      "method": "custom"
+      "defaultBoot": "internal",
+      "altBoot": []
     },
     "is_private": false
   },

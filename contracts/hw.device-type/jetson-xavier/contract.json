@@ -21,11 +21,10 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "jetsonFlash",
     "media": {
-      "installation": "dfu"
-    },
-    "installation": {
-      "method": "jetsonFlash"
+      "defaultBoot": "internal",
+      "altBoot": []
     },
     "is_private": false
   },

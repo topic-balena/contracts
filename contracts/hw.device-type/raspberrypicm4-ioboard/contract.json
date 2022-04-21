@@ -21,8 +21,10 @@
     "storage": {
       "internal": false
     },
+    "flashProtocol": "RPIBOOT",
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
   }

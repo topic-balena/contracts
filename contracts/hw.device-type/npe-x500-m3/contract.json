@@ -21,10 +21,8 @@
       "internal": false
     },
     "media": {
-      "installation": "sdcard"
-    },
-    "installation": {
-      "method": "externalBoot"
+      "defaultBoot": "sdcard",
+      "altBoot": []
     },
     "is_private": false
   },
