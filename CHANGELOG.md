@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.14.0
+## (2022-05-12)
+
+* Add instruction partials to etcher supported device types [Micah Halter]
+
 # v1.13.66
 ## (2022-04-21)
 
